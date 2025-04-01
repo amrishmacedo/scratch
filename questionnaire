@@ -1,0 +1,208 @@
+{
+  "sections": [
+    {
+      "sectionTitle": "Company Information",
+      "questions": [
+        {
+          "questionText": "Company Name:",
+          "responseType": "text"
+        },
+        {
+          "questionText": "Industry Sector (select all that apply):",
+          "responseType": "checkbox",
+          "options": [
+            "Aerospace",
+            "Manufacturing",
+            "Energy/Battery/EV",
+            "Automotive",
+            "Other (please specify)"
+          ]
+        },
+        {
+          "questionText": "Municipality (choose which apply)",
+          "responseType": "checkbox",
+          "options": [
+            "City",
+            "County"
+          ],
+          "subSections": [
+            {
+              "sectionTitle": "Logistics",
+              "questions": [
+                {
+                  "questionText": "Rail",
+                  "responseType": "checkbox"
+                },
+                {
+                  "questionText": "Freight",
+                  "responseType": "checkbox"
+                },
+                 {
+                  "questionText": "Warehousing",
+                  "responseType": "checkbox"
+                },
+                 {
+                  "questionText": "Air cargo",
+                  "responseType": "checkbox"
+                },
+                {
+                  "questionText": "Maritime",
+                  "responseType": "checkbox"
+                },
+                {
+                  "questionText": "Other",
+                   "responseType": "text"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "questionText": "Company Size:",
+          "responseType": "radio",
+          "options": [
+            "Small (1-50 employees)",
+            "Medium (51-250 employees)",
+            "Large (251+ employees)"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Technology and Innovation Needs",
+      "questions": [
+        {
+          "questionText": "Current Technology Challenges\nWhat are the most pressing technological challenges in your current business operations? (Please provide detailed information)",
+          "responseType": "longtext"
+        },
+        {
+          "questionText": "Rank the following technology priorities for your business (1 being highest priority, 5 being lowest):",
+          "responseType": "ranking",
+          "options": [
+            "Process Automation",
+            "Artificial Intelligence/Machine Learning",
+            "Internet of Things (IoT)",
+            "Cybersecurity",
+            "Advanced Analytics",
+            "Other (please specify)"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Specific Technology Interests",
+      "questions": [
+        {
+          "questionText": "What specific technologies are you most interested in exploring?",
+          "responseType": "checkbox",
+          "options": [
+            "Robotics",
+            "AI-driven predictive maintenance",
+            "Advanced materials",
+            "Digital twin technology",
+            "Supply chain optimization tools",
+            "Autonomous systems",
+            "Other (please specify)"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Supplier Engagement Preferences",
+      "questions": [
+        {
+          "questionText": "What are your primary criteria for selecting potential technology suppliers? (Rank from most to least important)",
+          "responseType": "ranking",
+          "options": [
+            "Cost-effectiveness",
+            "Technological innovation",
+            "Proven track record",
+            "Customization capabilities",
+            "Technical support",
+            "Implementation speed"
+          ]
+        },
+        {
+          "questionText": "Are you looking for:",
+          "responseType": "checkbox",
+          "options": [
+            "Completely new technology solutions",
+            "Incremental improvements to existing technologies",
+            "Proof of concept partnerships",
+            "Pilot program opportunities"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Investment and Implementation",
+      "questions": [
+        {
+          "questionText": "Estimated annual budget for new technology investments:",
+          "responseType": "radio",
+          "options": [
+            "Under $50,000",
+            "$50,000 - $250,000",
+            "$250,000 - $500,000",
+            "$500,000 - $1,000,000",
+            "Over $1,000,000"
+          ]
+        },
+        {
+          "questionText": "Preferred implementation timeline:",
+          "responseType": "radio",
+          "options": [
+            "Immediate (0-3 months)",
+            "Short-term (3-6 months)",
+            "Medium-term (6-12 months)",
+            "Long-term (12+ months)"
+          ]
+        }
+      ]
+    },
+     {
+      "sectionTitle": "Additional Information",
+      "questions": [
+        {
+          "questionText": "Are there any specific pain points in your current technological infrastructure that you're seeking to address? (Open text response)",
+          "responseType": "longtext"
+        },
+        {
+          "questionText": "What unique challenges does your industry segment present for technological innovation? (Open text response)",
+          "responseType": "longtext"
+        },
+        {
+          "questionText": "Would you be interested in:",
+          "responseType": "checkbox",
+          "options": [
+            "Collaborative R&D",
+            "Joint development projects",
+            "Technology licensing",
+            "Consulting and advisory services"
+          ]
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Contact Information",
+      "questions": [
+        {
+          "questionText": "Primary Contact Name:",
+          "responseType": "text"
+        },
+        {
+          "questionText": "Email Address:",
+          "responseType": "text"
+        },
+        {
+          "questionText": "Phone Number:",
+          "responseType": "text"
+        },
+        {
+          "questionText": "Role/Position:",
+          "responseType": "text"
+        }
+      ]
+    }
+  ]
+}
